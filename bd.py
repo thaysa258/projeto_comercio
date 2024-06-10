@@ -292,7 +292,7 @@ def fazer_pedido(cliente,produto,quantidade,preco):
     cursor.execute(sql_estoque, (produto_id,))
 
     sql_detalhes_pedido = 'DELETE FROM detalhespedido WHERE ID_Produto = %s'
-    cursor.execute(sql_detalhes_pedido, (produto_id,))
+    cursor.execute(sql_detalhes_pedido, (produto_id,)) # teste
 
   
    

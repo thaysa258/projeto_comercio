@@ -6,3 +6,5 @@ def conexao ():
             password = '',
             database = 'comercio')
     return conbd 
+
+# teste
